@@ -22,10 +22,6 @@ sources := $(wildcard algorithms/alignment/*.cpp) \
 		   $(wildcard format/*.cpp) \
 		   $(wildcard *.cpp) \
 
-ifdef nohdf
-sources := $(filter-out files/% utils/FileOfFileNames.cpp, $(sources))
-endif
-
 objects := $(sources:.cpp=.o)
 dependencies := $(sources:.cpp=.d)
 

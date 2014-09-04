@@ -1,4 +1,4 @@
-libpbalign
+alignment
 ==========
 
-Contains BLASR-derived alignment algorithm routines
+Contains BLASR-derived alignment algorithm routines, builds as libblasr.a
